@@ -30,8 +30,8 @@ index 3d6ed9d..e94ff4e 100644
  				this.box.insert_child_at_index(this.icon,0);
 +			}
  		}
- 	}
- 
+ 	} 
+   
 diff --git a/players.js b/players.js
 index ba01ec8..20f1f4f 100644
 --- a/players.js
