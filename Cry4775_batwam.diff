@@ -9,7 +9,7 @@ index 3d6ed9d..e94ff4e 100644
 -				this.icon = this.player.getArtUrlIcon(size, ICON_PLACE, ICON_PADDING);
 +				this.icon = this.player.getArtUrlIcon(size);
  		}
-   
+ 
 -		if(this.icon == null)
 -			this.icon = this.player.getIcon(ICON_PLACE, SYMBOLIC_ICON, ICON_PADDING);
 +		if(this.icon == null){
