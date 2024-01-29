@@ -3,7 +3,7 @@ index 3d6ed9d..e94ff4e 100644
 --- a/extension.js
 +++ b/extension.js
 @@ -404,17 +404,24 @@ class MprisLabel extends PanelMenu.Button {
- 
+   
  			const blacklist = ALBUM_BLACKLIST.toLowerCase().replaceAll(' ','').split(',');
  			if(!blacklist.includes(this.player.identity.toLowerCase()))
 -				this.icon = this.player.getArtUrlIcon(size, ICON_PLACE, ICON_PADDING);
